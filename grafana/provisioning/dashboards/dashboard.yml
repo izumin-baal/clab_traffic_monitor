@@ -1,0 +1,12 @@
+apiVersion: 1
+
+providers:
+  - name: 'Traffic Monitor'
+    orgId: 1
+    type: file
+    disableDeletion: false
+    updateIntervalSeconds: 10
+    allowUiUpdates: false
+    options:
+      path: /var/lib/grafana/dashboards/traffic_monitor.json
+      foldersFromFilesStructure: false
